@@ -1,0 +1,39 @@
+{
+	"name": "patwie-vs-code-theme",
+	"displayName": "Patwie VSCode Theme",
+	"description": "My custom color theme ported from Sublime Text",
+	"license": "GPL3",
+	"author": {
+		"name": "patwie",
+		"url": "https://patwie.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/patwie/patwie-vs-code-theme.git"
+	},
+	"bugs": {
+		"url": "https://github.com/patwie/patwie-vs-code-theme/issues"
+	},
+	"publisher": "patwie",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.38.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"sublime text",
+		"dark sidebar",
+	],
+	"icon": "icon.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Patwie VSCode Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/patwie-vs-code-theme.json"
+			}
+		]
+	}
+}
